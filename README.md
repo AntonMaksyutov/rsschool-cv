@@ -1,1 +1,1 @@
-https://antonmaksyutov.github.io/rsschool-cv/cv
+# rs_school
