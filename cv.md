@@ -64,6 +64,11 @@ function countPositivesSumNegatives(input) {
 * Markdown
 * VS code
 
+
+## Work experience
+* This CV
+
+
 ## Languages:
 
 * Russian - Native
