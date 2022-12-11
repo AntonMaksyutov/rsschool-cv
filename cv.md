@@ -1,7 +1,7 @@
 # Anton Maksyutov
 
 ## Location
-Russia, Yekaterinberg
+Russia, Yekaterinburg
 
 ## Contacts:
 * Email: ant87m@yandex.ru
@@ -58,8 +58,8 @@ function countPositivesSumNegatives(input) {
 
 
 ## Basic Skills and Courses
-* HTML,CSS
-* JavaScript on learn.javascript.ru, freeCodeCamp
+* HTML,CSS on the code-basics.com
+* JavaScript on the learn.javascript.ru, freeCodeCamp
 * Git, GitHub
 * Markdown
 * VS code

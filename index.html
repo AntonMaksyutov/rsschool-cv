@@ -1,4 +1,90 @@
 <!DOCTYPE html>
-<html>
-    
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <title>CV</title>
+    </head>
+    <body>
+        <header><img src="img/IMG-20210212-WA0261.jpeg" alt="My foto" width="200" height="300">
+            <h1>Anton Maksyutov</h1>
+            <p id="location">Russia, Yekaterinburg</p>
+        </header>
+        <div class="about">
+            <h2>About Me:</h2>
+            <p>My goal is to become a front-end developer and enjoy my work,
+            I always strive for new knowledge and try to improve the skills already acquired.</p>
+        </div>
+        <div class="education">
+            <h2>Basic Skills and Courses:</h2>
+            <ul>
+                <li>HTML,CSS on the code-basics.com</li>
+                <li>JavaScript on the learn.javascript.ru, freeCodeCamp</li>
+                <li>Git, GitHub</li>
+                <li>Markdown</li>
+                <li>VS code</li>
+            </ul>
+        </div>
+        <div class="code">
+            <h2>Code example</h2>
+            <h3>CodeWars Kata 8:</h3>
+            <p>Given an array of integers.
+            
+            Return an array, where the first element is the count of positives numbers and the second element is sum of negative
+            numbers. 0 is neither positive nor negative.
+            
+            If the input is an empty array or is null, return an empty array.
+            
+            Example
+            For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].</p>
+            <code><pre>
+                function countPositivesSumNegatives(input) {
+  
+                   let countPositiv = 0;
+                   let sumNegative = 0;
+                   let arr = [];
+  
+                   if (input === null) return [];
+  
+                   for (let i = 0; i < input.length; i++) {
+                        if (input[i] > 0) {
+                            countPositiv ++;
+                        }
+                        if (input[i] < 0) {
+                            sumNegative += input[i];
+                        }
+                    }
+  
+                    arr.push(countPositiv);
+                    arr.push(sumNegative);
+  
+                    if (arr[0] === 0 && arr[1] === 0) return [];
+
+                    return arr;
+                }
+                </pre>
+            </code>
+        </div>
+        <div>
+            <h2>My projects:</h2>
+            <p>This CV</p>
+        </div>
+        <div>
+            <h2>Languages:</h2>
+            <ul>
+                <li>Russian - Native</li>
+                <li>English A2</li>
+            </ul>
+        </div>
+        <footer>
+            <div>
+                <p>Contacts:</p>
+                <ul>
+                    <li>Email: ant87m@yandex.ru</li>
+                    <li>Discord: Last#3984</li>
+                    <li>Telegram: @Ant87M</li>
+                    <li>GitHub: Anton Maksyutov</li>
+                </ul>
+            </div>
+        </footer>
+    </body>
 </html>
