@@ -1,0 +1,15 @@
+header {
+    display: flex;
+    width: 70%;
+    flex-direction: row;
+    gap: 5px;
+    border-spacing: 5px;
+}
+
+.head {
+    
+}
+
+.about {
+    
+}
