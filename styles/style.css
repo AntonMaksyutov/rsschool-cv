@@ -28,13 +28,7 @@ header {
     justify-content: center;
     align-content: center;
 }
-#location {
-    font-size: 160%;
-}
 
-.name {
-    font-size: 35px;
-}
 .myfoto {
     border-radius: 100%;
     border: 3px solid rgba(253,190,217, 0.7);
@@ -56,17 +50,11 @@ footer {
     display: flex;
     justify-content: space-between;
     width: 70vw;
-    max-height: 10%;
     background-image: url(../img/logo/rs_school_js\ \(1\).svg);
     background-repeat: no-repeat;
     background-size: 25%;
     background-position: 100% 100%;
-    background-color: #F2CFFD;
-}
-
-li {
-    list-style-type: none;
-    font-size: 130%;
+    background-color: #B49ABC;
 }
 
 .headpath {
@@ -79,20 +67,8 @@ li {
     box-shadow: 10px 5px 1px 10px #ECBEFA;
 }
 
-h2 {
-    font-size: 150%;
-}
-
-main p {
-    font-size: 130%;
-}
-
 .backcolor {
     background-color: #FDBEDB;
-}
-
-footer {
-    background-color: #B49ABC;
 }
 
 .contacts {
@@ -101,14 +77,22 @@ footer {
     box-shadow: 10px -12px 1px 20px #ECBEFA;
 }
 
-footer p {
-    font-size: 150%;
+.link {
+    background: #ECBEFA;
+    box-shadow: 10px 15px 1px 20px #ECBEFA;
 }
 
-.curse {
-    font-size: 150%;
-}
+@media (max-width: 575px) {
+    
+    header {
+        width: auto;
+    }
+    
+    main {
+        width: auto;
+    }
 
-h1 {
-    font-size: 130%;
+    footer {
+        width: auto;
+    }
 }
