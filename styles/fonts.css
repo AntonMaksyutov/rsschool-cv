@@ -1,0 +1,36 @@
+footer p {
+    font-size: 150%;
+}
+
+.curse {
+    font-size: 170%;
+}
+
+h1 {
+    font-size: 130%;
+}
+
+h2 {
+    font-size: 150%;
+}
+
+main p {
+    font-size: 130%;
+}
+
+li {
+    list-style-type: none;
+    font-size: 130%;
+}
+
+#location {
+    font-size: 160%;
+}
+
+.name {
+    font-size: 35px;
+}
+
+.year {
+    font-size: 180%;
+}
