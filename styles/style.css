@@ -87,6 +87,15 @@ footer {
     box-shadow: 10px 15px 1px 20px #ECBEFA;
 }
 
+.code {
+    background-color: #FFC8C0;
+}
+
+.task {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+}
 @media (max-width: 575px) {
     
     header {
