@@ -103,6 +103,10 @@ footer {
     justify-content: center;
 }
 
+.menu {
+    background-color:#ECBEFA;
+}
+
 @media (max-width: 575px) {
     
     header {
