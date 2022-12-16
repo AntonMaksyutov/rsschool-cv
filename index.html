@@ -2,8 +2,8 @@
 <html lang="ru">
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="/rsschool-cv/styles/style.css">
-        <link rel="stylesheet" href="/rsschool-cv/styles/fonts.css">
+        <link type="text/css" rel="stylesheet" href="/styles/style.css">
+        <link type="text/css" rel="stylesheet" href="/styles/fonts.css">
         <title>CV</title>
     </head>
     <body>
@@ -20,6 +20,13 @@
                     I always strive for new knowledge and try to improve the skills already acquired.</p>
             </div>
         </header>
+        <nav class="menu">
+           <ul>
+            <li><a href="#code">Code Example</a></li>
+            <li><a href='#project'>My projects</a></li>
+            <li><a href="#foot">Contacts</a></li>
+           </ul>
+        </nav>
         <main>
             <div class="education backcolor">
                 <h2><span class="headpath">Basic Skills and Courses:</span></h2>
@@ -31,8 +38,9 @@
                     <li>VS code</li>
                 </ul>
             </div>
-            <div class="code backcolor">
+            <div class="backcolor">
                 <h2><span class="headpath">Code example:</span></h2>
+                <div class="task" id="code">
                 <h3>CodeWars Kata 8:</h3>
                     <p>Given an array of integers.</p>
             
@@ -42,7 +50,9 @@
             
                     <p>Example:</p>
                     <p>For input [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, -11, -12, -13, -14, -15], you should return [10, -65].</p>
-                <pre>
+                </div>
+                <div>
+                    <pre class="code">
                     <code>
                 function countPositivesSumNegatives(input) {
   
@@ -69,12 +79,15 @@
                     return arr;
                 }
                     </code>
-                </pre>    
+                  </pre>
+                </div>    
             </div>
-            <div class="backcolor">
+            <div class="backcolor" id="project">
                 <h2><span class="headpath">My projects:</span></h2>
-                <p>This CV</p>
-            </div>
+                <ul>
+                    <li><a href="https://antonmaksyutov.github.io/rsschool-cv">This CV</a> on GitHub</li>
+                </ul>
+                </div>
             <div class="backcolor">
                 <h2><span class="headpath">Languages:</span></h2>
                 <ul>
@@ -83,7 +96,7 @@
                 </ul>
             </div>
         </main>
-        <footer>
+        <footer id="foot">
             <div>
                 <p><span class="contacts">Contacts:</span></p>
                 <ul>
@@ -91,9 +104,9 @@
                     <li>Discord: Last#3984</li>
                     <li>Telegram: @Ant87M</li>
                     <li><a href="https://github.com/AntonMaksyutov">My GitHub</a></li>
-                    <li class="year">CV started 2022</li>
                 </ul>
-            </div>    
+            </div>  
+            <div id="year">CV started at 2022</div>
             <div>
                 <p>I'm study at Rsschool - <a class="link" href="https://rs.school/js/">join me</a></p>
             </div>
