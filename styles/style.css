@@ -105,6 +105,14 @@ footer {
 
 .menu {
     background-color:#ECBEFA;
+    width: 70vw;
+}
+
+.nav_ul {
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-around;
+    margin-right: 10%;
 }
 
 @media (max-width: 575px) {
