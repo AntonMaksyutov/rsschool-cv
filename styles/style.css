@@ -110,9 +110,8 @@ footer {
 
 .nav_ul {
     display: flex;
-    flex-grow: 1;
     justify-content: space-around;
-    margin-right: 10%;
+    margin-right: 8%;
 }
 
 @media (max-width: 575px) {
